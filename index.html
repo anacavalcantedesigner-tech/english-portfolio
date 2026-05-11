@@ -31,6 +31,9 @@
       .soft-card { background: #ffffffee; border: 1px solid #f3f4f6; position: relative; z-index: 20; transition: transform 0.2s ease; }
       .soft-card:hover { transform: translateY(-2px); }
       .tag { display: inline-block; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.2rem 0.65rem; border-radius: 999px; border: 1px solid #e5e7eb; background: #fff; color: #374151; }
+      .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+      .custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; }
+      .custom-scrollbar::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
     </style>
   </head>
   <body class="antialiased">
@@ -54,7 +57,7 @@
           I work at the intersection of design and technology: UX/UI, CRM, n8n automations, Generative AI, and WordPress development. My approach combines visual consistency with operational efficiency.
         </p>
         
-        <div class="flex flex-wrap justify-center gap-2 lg:justify-start">
+        <div class="flex flex-wrap justify-center gap-2 lg:justify-start mb-8">
           <span class="tag">UX/UI</span>
           <span class="tag">CRM</span>
           <span class="tag">n8n</span>
@@ -65,7 +68,49 @@
           <span class="tag">Figma</span>
           <span class="tag">Adobe Suite</span>
         </div>
+
+        <div class="flex justify-center lg:justify-start">
+          <a href="assets/Curriculum Vitae Ana Cavalcante_compressed.pdf" target="_blank" class="inline-flex items-center rounded-full border-2 border-gray-800 px-6 py-2 text-xs font-bold uppercase tracking-widest text-gray-800 hover:bg-gray-800 hover:text-white transition-all">
+            <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download Full CV (PDF)
+          </a>
+        </div>
       </header>
+
+      <section class="mb-20">
+        <h2 class="mb-8 flex items-center text-xl md:text-2xl font-bold italic">
+          <span class="mr-4 h-[2px] w-8 bg-gray-400"></span> Digital Prototypes & Live Work
+        </h2>
+        
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div class="soft-card rounded-xl p-6">
+            <h3 class="mb-4 text-sm font-bold uppercase tracking-widest text-gray-400">Figma Prototypes</h3>
+            <ul class="space-y-3">
+              <li><a href="https://www.figma.com/proto/DuJb588B28OsIAxIw96EpX/Nai-Editais-se%C3%A7%C3%A3o?node-id=5-57&t=vUeszsm512N7W6de-1" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">Interactive Section: Nai Editais →</a></li>
+              <li><a href="https://www.figma.com/proto/uLyWsDpNj84tLQtrSgf23D/UniEvangelica-Prototipa%C3%A7%C3%A3o?node-id=1-8&t=XYB409hdJgfbdGYW-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">Full University Prototype →</a></li>
+              <li><a href="https://www.figma.com/proto/psIIYTLApyMJ2ceceyQTR1/landing-page-treino?node-id=0-1&t=7Ryq6QjojXuKHkYw-1" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">LP Design Practice →</a></li>
+              <li><a href="https://www.figma.com/proto/y3CWx4UdPpKVlwXZLPKVfz/sorteio-pos-graduacao-01-bolsa-de-50-de-desconto?node-id=3-2&t=vh6WVRkBuuju0WOp-1" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">Scholarship Campaign App →</a></li>
+            </ul>
+          </div>
+
+          <div class="soft-card rounded-xl p-6">
+            <h3 class="mb-4 text-sm font-bold uppercase tracking-widest text-gray-400">Live Production Pages</h3>
+            <div class="max-h-48 overflow-y-auto pr-2 custom-scrollbar">
+              <ul class="space-y-3">
+                <li><a href="https://selecao.faculdaderaizes.edu.br/" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">Faculdade Raízes Seleção →</a></li>
+                <li><a href="https://selecao.uniego.edu.br/" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">UniGO Portal →</a></li>
+                <li><a href="https://selecao.uniego.edu.br/agronomia" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">LP: Agronomia →</a></li>
+                <li><a href="https://selecao.uniego.edu.br/direito" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">LP: Direito →</a></li>
+                <li><a href="https://selecao.uniego.edu.br/biomedicina" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">LP: Biomedicina →</a></li>
+                <li><a href="https://selecao.uniego.edu.br/psicologia" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">LP: Psicologia →</a></li>
+                <li><a href="https://selecao.unievangelica.edu.br/teologia-central" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">LP: Teologia Central →</a></li>
+                <li><a href="https://associacao-educativa-evangelica.pages.net.br/conscientizacao-doacao-de-orgaos" target="_blank" class="text-sm font-semibold text-gray-700 hover:text-black hover:underline">Organs Donation Campaign →</a></li>
+              </ul>
+            </div>
+            <p class="mt-4 text-[10px] italic text-gray-400">+12 other specialized pages developed for UniEVANGÉLICA</p>
+          </div>
+        </div>
+      </section>
 
       <section class="mb-20">
         <h2 class="mb-8 flex items-center text-xl md:text-2xl font-bold italic">
@@ -100,25 +145,6 @@
               <a href="assets/logo%20RBstore-compactado.pdf" target="_blank" class="text-xs font-bold uppercase text-gray-800 hover:underline">Logo →</a>
             </div>
           </article>
-
-          <article class="soft-card group rounded-xl p-6">
-            <p class="mb-1 text-[10px] font-bold uppercase tracking-widest text-gray-400">Editorial</p>
-            <h3 class="mb-3 text-lg font-bold">The Art of War</h3>
-            <div class="flex gap-4">
-              <a href="assets/arte-da-guerra.pdf" target="_blank" class="text-xs font-bold uppercase text-gray-800 hover:underline">Book Design →</a>
-              <a href="assets/arte-da-guerra-mockups.pdf" target="_blank" class="text-xs font-bold uppercase text-gray-800 hover:underline">Mockups →</a>
-            </div>
-          </article>
-
-          <article class="soft-card group rounded-xl p-6">
-            <p class="mb-1 text-[10px] font-bold uppercase tracking-widest text-gray-400">Social Media · Academic</p>
-            <h3 class="mb-3 text-lg font-bold">Software Engineering Content</h3>
-            <div class="flex flex-col gap-2">
-              <a href="assets/carrosseis-engenharia.pdf" target="_blank" class="text-xs font-bold uppercase text-gray-800 hover:underline">Carousels →</a>
-              <a href="assets/Benchmarking%20Acad%C3%AAmico%20-%20Engenharia%20de%20Software_compressed.pdf" target="_blank" class="text-xs font-bold uppercase text-gray-800 hover:underline">Benchmarking →</a>
-            </div>
-          </article>
-
         </div>
       </section>
 
@@ -135,7 +161,7 @@
             </div>
             <p class="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-widest">Self-Employed</p>
             <p class="mt-3 text-sm md:text-base text-gray-600 leading-relaxed">
-              Bridging the gap between visual design and operational efficiency. Specialized in building automated workflows with <strong>n8n</strong>, developing high-performance websites via <strong>WordPress/Elementor</strong>, and crafting intuitive <strong>UX/UI</strong> solutions for digital products.
+              Bridging the gap between visual design and operational efficiency. Specialized in building automated workflows with <strong>n8n</strong>, developing high-performance websites via <strong>WordPress/Elementor</strong>, and crafting intuitive <strong>UX/UI</strong> solutions.
             </p>
           </div>
 
